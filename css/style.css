@@ -189,9 +189,14 @@ footer {
   color: white;
 }
 
-/* Media query for smaller screens */
 @media (max-width: 768px) {
     .flip-card {
-        width: 100%; /* Adjust the width for smaller screens */
+        width: 100%; 
+    }
+}
+@media (max-width: 768px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
     }
 }
