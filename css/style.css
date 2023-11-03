@@ -200,3 +200,10 @@ footer {
         padding-left: 0.5rem;
     }
 }
+section {
+    scroll-margin-block: 3rem;
+}
+p::first-letter {
+    font-size: 300%;
+    color: #bbb;
+}
